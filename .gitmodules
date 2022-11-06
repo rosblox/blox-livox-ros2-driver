@@ -1,0 +1,3 @@
+[submodule "ros-livox-ros2-driver"]
+	path = ros-livox-ros2-driver
+	url = https://github.com/rosblox/ros-livox-ros2-driver.git
