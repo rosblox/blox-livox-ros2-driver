@@ -25,13 +25,8 @@ services:
 
   ros-livox-ros2-driver:
     image: ghcr.io/rosblox/ros-livox-ros2-driver:foxy
-    # volumes:
-    # - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    volumes:
+     - ./livox_ros2_driver/config/livox_lidar_config.json:/colcon_ws/src/livox_ros2_driver/livox_ros2_driver/config/livox_lidar_config.json
     network_mode: "host"
     command: ros2 launch livox_ros2_driver livox_lidar_launch.py
     restart: always
-
-# Todo: 
-# Add config files mount point
-# Add default layout.json
-# Record gif for demonstration
