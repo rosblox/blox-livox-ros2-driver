@@ -1,46 +1,44 @@
 {
   "configById": {
-    "3D Panel!3ppfwlc": {
-      "autoSyncCameraState": false,
-      "autoTextBackgroundColor": true,
+    "3D!26oysky": {
       "cameraState": {
-        "distance": 3.1628723401716847,
+        "distance": 6.422596180470455,
         "perspective": true,
-        "phi": 0.5655828965402423,
-        "targetOffset": [
-          -0.17675262830656294,
-          0.42670688537144913,
+        "phi": 1.2076456094814425,
+        "target": [
+          0,
+          0,
           0
         ],
-        "thetaOffset": -0.38273038423301387,
+        "targetOffset": [
+          2.935752372256652,
+          -0.3045726108328899,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 2.5323412065990363,
         "fovy": 0.7853981633974483,
         "near": 0.01,
         "far": 5000
       },
-      "checkedKeys": [
-        "t:/tf",
-        "t:/foxglove/grid",
-        "ns:/tf:base_link",
-        "ns:/tf:odom",
-        "ns:/tf:zedm_base_link"
-      ],
-      "clickToPublishPoseTopic": "/move_base_simple/goal",
-      "clickToPublishPointTopic": "/clicked_point",
-      "clickToPublishPoseEstimateTopic": "/initialpose",
-      "clickToPublishPoseEstimateXDeviation": 0.5,
-      "clickToPublishPoseEstimateYDeviation": 0.5,
-      "clickToPublishPoseEstimateThetaDeviation": 0.26179939,
-      "customBackgroundColor": "#000000",
-      "diffModeEnabled": true,
-      "expandedKeys": [],
-      "followMode": "follow",
-      "followTf": "odom",
-      "modifiedNamespaceTopics": [
-        "/tf"
-      ],
-      "pinTopics": true,
-      "settingsByKey": {},
-      "useThemeBackgroundColor": true
+      "scene": {
+        "enableStats": true,
+        "backgroundColor": "#000000"
+      },
+      "transforms": {},
+      "topics": {
+        "/livox/lidar": {
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        }
+      },
+      "layers": {}
     }
   },
   "globalVariables": {},
@@ -50,5 +48,5 @@
     "speed": 1,
     "messageOrder": "receiveTime"
   },
-  "layout": "3D Panel!3ppfwlc"
+  "layout": "3D!26oysky"
 }
