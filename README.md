@@ -1,6 +1,6 @@
 # BloX Livox ROS2 Driver
 
-The BloX Livox ROS2 Driver interfaces with a [Livox LiDAR](https://www.stereolabs.com/zed-mini/) using the [Livox ROS2 Driver](https://github.com/Livox-SDK/livox_ros2_driver).
+The BloX Livox ROS2 Driver interfaces with a [Livox LiDAR](https://www.livoxtech.com/mid-70) using the [Livox ROS2 Driver](https://github.com/Livox-SDK/livox_ros2_driver).
 
 ## Data
 
